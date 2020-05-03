@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Climate Analysis</title>
+  </head>
+
+  <body>
+    <h1><div style="text-align:center"><font color="blue">Climate Analysis & Prediction</font></div></h1>
+    <hr>
+    </br>
+    <h2><div style="text-align:center">Enter the values </div></h2>
+    </br>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-6'>
+          <form method="POST" action="/predict">
+            <div class="form-group">
+              <label for="Year"><p class="font-weight-bold">Year</p></label>
+              <input type="text" name="Year">
+              <small id="YearHelp" class="form-text text-muted">Enter Year of Manufacturing</small>
+              </div>
+
+              <div class="form-group">
+                <label for="PresentPrice"><p class="font-weight-bold">Present Price</p></label>
+                <input type="text" name="PresentPrice">
+                <small id="Present Price Help" class="form-text text-muted">Enter Present Price of Car in Lakhs</small>
+                </div>
+
+                <div class="form-group">
+                  <label for="Kms"><p class="font-weight-bold">Kms</p></label>
+                  <input type="text" name="Kms">
+                  <small id="KmsHelp" class="form-text text-muted">Enter Kms driven</small>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Owner"><p class="font-weight-bold">Owner</p></label>
+                    <input type="text" name="Owner">
+                    <small id="OwnerHelp" class="form-text text-muted">Enter the number of Owner</small>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="FuelType"><p class="font-weight-bold">Fuel Type</p></label>
+                      <input type="text" name="FuelType">
+                      <small id="FuelTypeHelp" class="form-text text-muted">Enter 1 for Petrol, 0 for Diesel</small>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="SellerType"><p class="font-weight-bold">Seller Type</p></label>
+                        <input type="text" name="SellerType">
+                        <small id="Seller Type Help" class="form-text text-muted">Enter 1 for Dealer, 0 for Individual </small>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="Transmission"><p class="font-weight-bold">Transmission</p></label>
+                          <input type="text" name="Transmission">
+                          <small id="TransmissionHelp" class="form-text text-muted">Enter 1 for Manual, 0 for Automatic</small>
+                          </div>
+
+                        <input class='btn btn-primary' type='submit' value='Submit'>
+            </form>
+
+          </div>
+          </div>
+          </div>
+  </body>
+
+</html>
