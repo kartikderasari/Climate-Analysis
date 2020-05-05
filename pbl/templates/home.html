@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Climate Analysis</title>
+  </head>
+
+  <body>
+    <h1><div style="text-align:center"><font color="blue">Climate Analysis & Prediction</font></div></h1>
+    <hr>
+    </br>
+    <h2><div style="text-align:center">Enter the values </div></h2>
+    </br>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-6'>
+          <form method="POST" action="/predict">
+            <div class="form-group">
+              <label for="MinTemp"><p class="font-weight-bold">MinTemp</p></label>
+              <input type="text" name="MinTemp">
+              <small id="YearHelp" class="form-text text-muted">Enter MinTemp</small>
+              </div>
+
+              <div class="form-group">
+                <label for="PresentPrice"><p class="font-weight-bold">MaxTemp</p></label>
+                <input type="text" name="MaxTemp">
+                <small id="Present Price Help" class="form-text text-muted">Enter MaxTemp</small>
+                </div>
+
+                <div class="form-group">
+                  <label for="Kms"><p class="font-weight-bold">Rainfall</p></label>
+                  <input type="text" name="Rainfall">
+                  <small id="KmsHelp" class="form-text text-muted">Rainfall</small>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Owner"><p class="font-weight-bold">WindGustSpeed</p></label>
+                    <input type="text" name="WindGustSpeed">
+                    <small id="OwnerHelp" class="form-text text-muted">Enter WindGustSpeed</small>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="FuelType"><p class="font-weight-bold">WindSpeed9am</p></label>
+                      <input type="text" name="WindSpeed9am">
+                      <small id="FuelTypeHelp" class="form-text text-muted">Enter WindSpeed9am</small>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="SellerType"><p class="font-weight-bold">WindSpeed3pm</p></label>
+                        <input type="text" name="WindSpeed3pm">
+                        <small id="Seller Type Help" class="form-text text-muted">WindSpeed3pm </small>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="Transmission"><p class="font-weight-bold">Humidity9am</p></label>
+                          <input type="text" name="Humidity9am">
+                          <small id="TransmissionHelp" class="form-text text-muted">Enter Humidity9am</small>
+                          </div>
+						 
+						 <div class="form-group">
+                          <label for="Transmission"><p class="font-weight-bold">Humidity3pm</p></label>
+                          <input type="text" name="Humidity3pm">
+                          <small id="TransmissionHelp" class="form-text text-muted">Enter Humidity3pm</small>
+                          </div>
+						  
+						  <div class="form-group">
+                          <label for="Transmission"><p class="font-weight-bold">Pressure9am</p></label>
+                          <input type="text" name="Pressure9am">
+                          <small id="TransmissionHelp" class="form-text text-muted">Enter Pressure9am</small>
+                          </div>
+						  
+						  <div class="form-group">
+                          <label for="Transmission"><p class="font-weight-bold">Pressure3pm</p></label>
+                          <input type="text" name="Pressure3pm">
+                          <small id="TransmissionHelp" class="form-text text-muted">Enter Pressure3pm</small>
+                          </div>
+						  
+						  <div class="form-group">
+                          <label for="Transmission"><p class="font-weight-bold">Cloud9am</p></label>
+                          <input type="text" name="Cloud9am">
+                          <small id="TransmissionHelp" class="form-text text-muted">Enter Cloud9am</small>
+                          </div>
+						  
+						  <div class="form-group">
+                          <label for="Transmission"><p class="font-weight-bold">Cloud3pm</p></label>
+                          <input type="text" name="Cloud3pm">
+                          <small id="TransmissionHelp" class="form-text text-muted">Enter Cloud3pm</small>
+                          </div>
+						  
+						  <div class="form-group">
+                          <label for="Transmission"><p class="font-weight-bold">Temp9am</p></label>
+                          <input type="text" name="Temp9am">
+                          <small id="TransmissionHelp" class="form-text text-muted">Enter Temp9am</small>
+                          </div>
+						  
+						  <div class="form-group">
+                          <label for="Transmission"><p class="font-weight-bold">Temp3pm</p></label>
+                          <input type="text" name="Temp3pm">
+                          <small id="TransmissionHelp" class="form-text text-muted">Enter Temp3pm</small>
+                          </div>
+						  
+						  <div class="form-group">
+                          <label for="Transmission"><p class="font-weight-bold">RainToday</p></label>
+                          <input type="text" name="RainToday">
+                          <small id="TransmissionHelp" class="form-text text-muted">Enter RainToday</small>
+                          </div>
+						  
+						  <div class="form-group">
+                          <label for="Transmission"><p class="font-weight-bold">RISK_MM</p></label>
+                          <input type="text" name="RISK_MM">
+                          <small id="TransmissionHelp" class="form-text text-muted">Enter RISK_MM</small>
+                          </div>
+						  
+						  
+						  
+						  
+
+                        <input class='btn btn-primary' type='submit' value='Submit'>
+            </form>
+
+          </div>
+          </div>
+          </div>
+  </body>
+
+</html>
